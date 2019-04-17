@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+            android:id="@+id/iv_food"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:src="@mipmap/ic_food_icon"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"/>
+
+    <TextView
+            android:id="@+id/tv_food_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="菜名"
+            app:layout_constraintStart_toEndOf="@id/iv_food"
+            app:layout_constraintTop_toTopOf="@id/iv_food"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"/>
+
+    <TextView
+            android:id="@+id/tv_food_trait"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="特色"
+            app:layout_constraintBottom_toBottomOf="@id/iv_food"
+            app:layout_constraintStart_toEndOf="@id/iv_food"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="10dp"/>
+
+</android.support.constraint.ConstraintLayout>

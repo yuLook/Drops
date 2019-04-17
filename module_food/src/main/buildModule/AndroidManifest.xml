@@ -1,0 +1,6 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.module_food">
+    <application>
+        <activity android:name=".mvp.view.FoodListActivity"/>
+    </application>
+</manifest>
